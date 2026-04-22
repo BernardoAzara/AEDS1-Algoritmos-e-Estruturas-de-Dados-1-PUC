@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+    int consumo_Kwh;
+    float salario_minimo, valor_Kwh, valor_desconto, resp;
+
+    printf("Adicione o valor do salario minimo:\n");
+    scanf("%f", &salario_minimo);
+    printf("Adicione o valor do consumo de Kwh:\n");
+    scanf ("%d", &consumo_Kwh);
+
+    valor_Kwh= salario_minimo/700;
+    resp= consumo_Kwh*valor_Kwh;
+    valor_desconto= resp* 0.9;
+
+    printf("Valor em reais de cada Kwh: R$ %.2f \n",(valor_Kwh));
+    printf("Valor em reais a ser pago sem o desconto: R$ %.2f \n", (resp));
+    printf("Valor em reais a ser pago com desconto: R$ %.2f \n",(valor_desconto));
+    return 0;
+}
+
