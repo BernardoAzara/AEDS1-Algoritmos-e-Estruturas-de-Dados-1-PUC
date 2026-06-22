@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main (){
+
+    float termo1, razao;
+    printf("Insira o valor do primeiro termo da PA: \n");
+    scanf("%f", &termo1);
+    printf("Insira o valor da razao: \n");
+    scanf("%f", &razao);
+
+
+    float termo10;
+
+    //Cálculos
+    termo10= termo1 + (10-1) * razao;
+
+
+
+    //Print resp
+    printf("O valor do decimo termo eh:%.2f \n", termo10);
+
+return 0;
+}
