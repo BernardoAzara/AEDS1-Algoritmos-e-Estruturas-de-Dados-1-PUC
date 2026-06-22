@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main(){
+    float numa, numb, numc;
+    printf("Insira o numero indicado como A: \n");
+    scanf("%f", &numa);
+    printf("Insira o numero indicado como B: \n");
+    scanf("%f", &numb);
+    printf("Insira o numero indicado como C: \n");
+    scanf("%f", &numc);
+    printf("Y = a + (b/(c+a)) + 2 * (a - b) + log2 (64) \n");
+
+    float respy;
+
+    //Cálculos
+    respy= numa + (numb/(numc+numb)) + 2 * (numa-numb) + log2(64);
+
+
+    //Print resposta
+    printf("Y: %.2f \n",respy);
+
+
+return 0;
+}
