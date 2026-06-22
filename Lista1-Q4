@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main (){
+    int pi;
+    float raio;
+
+
+    //Dados
+    printf("Entre com o raio do circulo: \n");
+    scanf("%f", &raio);
+
+
+   float area, perimetro;
+
+    //Calculos
+    area= 3.14* pow (raio,2);
+    perimetro= 2 * 3.14 * raio;
+
+    //Print
+    printf("area: %.2f \n", area);
+    printf("perimetro: %.2f \n", perimetro);
+
+
+
+
+return 0;
+}
