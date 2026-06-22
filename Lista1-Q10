@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main (){
+
+    float variA, variB;
+    printf("Insira o valor da variavel A: \n");
+    scanf("%f", &variA);
+    printf("Insira o valor da variavel B: \n");
+    scanf("%f", &variB);
+
+
+  float variainvertA, variainvertB;
+
+  //Cálculos;
+  variainvertA= variaB;
+  variainvertB= variaA;
+
+  //resp final
+  printf("O valor trocado da variavel A eh:%.2f \n", variB);
+  printf("O valor trocado da variavel B eh: %.2f \n", variA);
+
+
+
+return 0;
+}
