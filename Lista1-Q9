@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main (){
+    float termo1, razao, termo5;
+    printf("Insira o valor do primeiro termo da PG: \n");
+    scanf("%f", &termo1);
+    printf("Insira o valor da razao: \n");
+    scanf("%f", &razao);
+
+    //Cálculos
+    termo5 = termo1 * pow(razao, 5-1);
+
+    //Print res
+    printf("O valor do quinto termo eh: %.2f \n", termo5);
+
+
+return 0;
+}
