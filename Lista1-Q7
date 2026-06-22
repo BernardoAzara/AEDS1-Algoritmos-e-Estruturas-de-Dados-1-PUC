@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main (){
+    float catetoa, catetob;
+    printf("Insira o valor do cateto A: \n");
+    scanf("%f", &catetoa);
+    printf("Insira o valor do cateto B: \n");
+    scanf("%f", &catetob);
+
+
+    float hipotenusa;
+
+    //Cálculos
+    hipotenusa=  sqrt((pow (catetoa,2)) + (pow (catetob,2)));
+
+    //Resposta
+    printf("hipotenusa: %.2f \n", hipotenusa);
+
+
+return 0;
+}
