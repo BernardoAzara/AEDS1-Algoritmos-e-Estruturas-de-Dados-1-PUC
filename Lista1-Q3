@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main (){
+
+    float baseretangulo, alturaretangulo;
+    printf("Entre com a base do retangulo:\n");
+    scanf("%f", &baseretangulo);
+    printf("Entre com a altura do retangulo:\n");
+    scanf("%f", &alturaretangulo);
+
+    float perimetro, area, diagonal;
+
+    //Calculos
+    area= baseretangulo*alturaretangulo;
+    perimetro= baseretangulo+baseretangulo+alturaretangulo+alturaretangulo;
+    diagonal= sqrt(baseretangulo*baseretangulo+alturaretangulo*alturaretangulo);
+
+    //Print
+    printf("area:%.2f \n", area);
+    printf("perimetro:%.2f \n", perimetro);
+    printf("diagonal: %.2f \n", diagonal);
+
+    return 0;
+}
