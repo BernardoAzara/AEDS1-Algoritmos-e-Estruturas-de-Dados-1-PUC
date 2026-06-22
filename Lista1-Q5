@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main(){
+    float ladoquadrado;
+    printf("Entre com o lado do quadrado:\n");
+    scanf("%f", &ladoquadrado);
+
+    float area, perimetro, diagonal;
+
+    //Calculos
+    area= ladoquadrado*ladoquadrado;;
+    perimetro= ladoquadrado+ladoquadrado+ladoquadrado+ladoquadrado;
+    diagonal= sqrt(ladoquadrado*ladoquadrado+ladoquadrado*ladoquadrado);
+
+    //Print
+    printf("area: %.2f \n", area);
+    printf("perimetro: %.2f \n", perimetro);
+    printf("diagonal: %.2f \n", diagonal);
+
+
+
+return 0;
+}
